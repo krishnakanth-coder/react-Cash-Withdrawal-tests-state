@@ -1,0 +1,71 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+.container {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cash-card {
+  background-color: #150b3e;
+  border-radius: 10px;
+  padding: 20px;
+  color: #ffffff;
+}
+.profile-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  background-color: #c7d2fe;
+  align-self: center;
+  text-align: center;
+  border-radius: 50px;
+}
+.user-name {
+  margin: 10px;
+  font-size: 24px;
+}
+.balance-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.balance-text {
+  color: #c4c4c4;
+}
+.balance-amount {
+  font-size: 25px;
+}
+.balance-in-rupees {
+  text-align: right;
+  margin-top: -10px;
+  font-size: 10px;
+  color: #c4c4c4;
+}
+.withdraw-header {
+  font-size: 18px;
+}
+.choose-sum {
+  color: #c4c4c4;
+  font-size: 12px;
+}
+.buttons-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  text-align: center;
+}
